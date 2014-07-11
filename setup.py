@@ -9,7 +9,7 @@ import re
 from setuptools import setup
 
 ROOT = os.path.dirname(__file__)
-with open(os.path.join(ROOT, 'tornado_systemd.py')) as fd:
+with open(os.path.join(ROOT, 'tornado_systemd', '__init__.py')) as fd:
     __version__ = re.search("__version__ = '([^']+)'", fd.read()).group(1)
 
 options = dict(
