@@ -3,7 +3,7 @@ import socket
 from tornado.tcpserver import TCPServer
 from tornado.httpserver import HTTPServer
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 SYSTEMD_SOCKET_FD = 3  # Magic number !
 

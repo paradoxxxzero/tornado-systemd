@@ -21,6 +21,7 @@ options = dict(
     author_email="paradoxxx.zero@gmail.com",
     url="http://github.com/paradoxxxzero/tornado_systemd",
     license="GPLv3",
+    packages=['tornado_systemd'],
     platforms="Any",
     install_requires=["tornado>=3.2"],
     classifiers=[
