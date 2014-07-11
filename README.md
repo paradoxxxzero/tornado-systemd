@@ -1,6 +1,6 @@
 # Tornado systemd socket activation support
 
-This little library allow easy systemd socket activation support for tornado.
+This little library allows easy systemd socket activation support for tornado.
 
 ## How to use
 
@@ -50,9 +50,9 @@ application.listen(port)
 
 ## Nota Bene
 
-This wrapper check if the service has been launched by systemd socket
+This wrapper checks if the service has been launched by systemd socket
 activation.
-This means it still work when run by regular ways.
+This means it still works when run by regular ways.
 
 The server and the application get a `systemd` attribute which are `True` if
 the server was activated with systemd
